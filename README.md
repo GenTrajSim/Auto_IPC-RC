@@ -1,7 +1,7 @@
 # Auto_IPC-RC
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
 
-##Dataset
+## DATA SET
  - DATASET PATH
  ```text
 ├── Auto_IPC-RC/
