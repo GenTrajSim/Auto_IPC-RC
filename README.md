@@ -2,7 +2,8 @@
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
 
 ## TRAINING PROCESS
-In the Linear_$alpha/slop_*$phi*/ Path (i.e., Auto_IPC-RC/Linear_0.3/slope_455/), the "dp_LDL_simple_fhi47_100_linear.py" is the training main program. 
+In the Linear_*$alpha*/slop_*$phi*/ Path (i.e., Auto_IPC-RC/Linear_0.3/slope_455/), the "dp_LDL_simple_fhi47_100_linear.py" is the training main program. 
+-*$alpha* and *$phi* Setting
 ```bash
 ###  $alpha setting ###
 loss_correlation = (tf.reduce_mean((correlation-0.3)**2) ) #line 555 
@@ -12,7 +13,10 @@ loss_spearman_cor = (tf.reduce_mean((spearman_cor-0.3)**2) ) #line 556
 ###  $phi setting ###
 aa_loss1 = tf.reduce_mean( (k_cor - tf.math.tan(455.*pi/1000.0))**2 ) #line 564
 ```
-
+-Executive command
+```bash
+python3 dp_LDL_simple_fhi47_100_linear.py
+```
 
 ## DATA SET
  - DATASET PATH
