@@ -1,6 +1,17 @@
 # Auto_IPC-RC
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
 
+## ENVIRONMENT REQUIREMENTs
+```bash
+python == 3.11.0
+tensorflow-gpu == 2.4.0
+numpy == 1.26.3
+scipy == 1.12.0
+pandas == 2.1.4
+matplotlib == 3.8
+```
+## INSTALLATION GUIDE: N/A
+
 ## TRAINING PROCESS
 In the ./Linear_*$alpha*/slop_*$phi*/ Path (i.e., Auto_IPC-RC/Linear_0.3/slope_455/), the "dp_LDL_simple_fhi47_100_linear.py" is the training main program. 
 - *$alpha* and *$phi* Setting
