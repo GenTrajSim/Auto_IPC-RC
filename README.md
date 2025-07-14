@@ -9,7 +9,8 @@ The training data "dp_LDL" (~8 GB, for tip4p/ice P-T-rho-potential dataset) can 
  - DATASET FORMAT
 1. In "new_coord" Path, each $xx.npy (i.e., 1.npy, 2.npy, ...) file represents the $xx step (i.e., 1.npy, 2.npy, ...) during the MD simulation.
 
-$xx.npy shape: (300,30,4), where "300" is the total number of water molecules, "30" is the max number of water molecules (oxygen atoms) in a local structure, and "4" refers to (x<sup>^</sup>, y<sup>^</sup>, z<sup>^</sup>, r<sup>^</sup>) (the detail can read  - [End-to-end Symmetry Preserving Inter-atomic Potential Energy Model for Finite and Extended Systems]([https://proceedings.neurips.cc/paper/2021/hash/f1c1592588411002af340cbaedd6fc33-Abstract.html](https://proceedings.neurips.cc/paper/2018/hash/e2ad76f2326fbc6b56a45a56c59fafdb-Abstract.html)))
+$xx.npy shape: (300,30,4), where "300" is the total number of water molecules, "30" is the max number of water molecules (oxygen atoms) in a local structure, and "4" refers to (s(r)<sup>^</sup>, x<sup>^</sup>, y<sup>^</sup>, z<sup>^</sup>)-(the detail can read  
+- [End-to-end Symmetry Preserving Inter-atomic Potential Energy Model for Finite and Extended Systems]([https://proceedings.neurips.cc/paper/2021/hash/f1c1592588411002af340cbaedd6fc33-Abstract.html])
 
 2. In "box"
 xx.npy shape: (9,) - (time, boxx, boxy, boxz, temp, press, rho, pot, ent, pb) - can read from boxdata.csv.
