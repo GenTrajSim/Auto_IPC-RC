@@ -1,13 +1,15 @@
 # Auto_IPC-RC
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
 
+## TRAIN PROCESS
+
 ## DATA SET
  - DATASET PATH
  ```text
 ├── Auto_IPC-RC/
 └── dp_LDL/
  ```
-The training data "*dp_LDL*" (~8 GB, for tip4p/ice P-T-rho-potential dataset) can be downloaded from the link within the article.
+The training data "*dp_LDL*" (~8 GB, for tip4p/ice *P-T-rho-potential* dataset) can be downloaded from the link within the article.
  - DATASET FORMAT
 1. In "new_coord" Path, each *$xx*.npy (i.e., 1.npy, 2.npy, ...) file represents the $xx step (i.e., 1.npy, 2.npy, ...) during the MD simulation.
 
