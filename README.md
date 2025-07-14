@@ -42,7 +42,7 @@ Also can execute the auto_PT.pl or auto_PT2.pl in Auto_IPC-RC, e.g.,
 perl auto_PT.pl
 ```
 - Testing output
-In the ./Linear_*$alpha*/slop_*$phi*/logtest/ Path, "xe.log" or "xe_1800_188.log"/"xe_1800_188.txt" (rename by auto_PT/auto_PT2.pl) are the outputs.
+In the ./Linear_*$alpha*/slop_*$phi*/logtest/ Path, "xe.log" or "xe_1800_188.log"/"xe_1800_188.txt" (renamed by auto_PT/auto_PT2.pl) are the outputs.
 
 ## DATA SET
  - DATASET PATH
