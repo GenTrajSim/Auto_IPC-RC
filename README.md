@@ -2,7 +2,7 @@
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
 
 ## TRAINING PROCESS
-In the Linear_*$alpha*/slop_*$phi*/ Path (i.e., Auto_IPC-RC/Linear_0.3/slope_455/), the "dp_LDL_simple_fhi47_100_linear.py" is the training main program. 
+In the ./Linear_*$alpha*/slop_*$phi*/ Path (i.e., Auto_IPC-RC/Linear_0.3/slope_455/), the "dp_LDL_simple_fhi47_100_linear.py" is the training main program. 
 - *$alpha* and *$phi* Setting
 ```bash
 ###  $alpha setting ###
@@ -17,9 +17,11 @@ aa_loss1 = tf.reduce_mean( (k_cor - tf.math.tan(455.*pi/1000.0))**2 ) #line 564
 ```bash
 python3 dp_LDL_simple_fhi47_100_linear.py
 ```
+- Training output
+In the ./Linear_*$alpha*/slop_*$phi*/log_simple_fhi47_100_linear Path, "test.log", "train.log" and "xe.log" are the outputs. And using "draw.py" can obtain the training process.
 
 ## TESTING 
-In the Linear_*$alpha*/slop_*$phi*/ Path (i.e., Auto_IPC-RC/Linear_0.4/slope_490/), the "dp_LDL_simple_fhi47_100_linear_test_auto.py" is the testing main program. 
+In the ./Linear_*$alpha*/slop_*$phi*/ Path (i.e., Auto_IPC-RC/Linear_0.4/slope_490/), the "dp_LDL_simple_fhi47_100_linear_test_auto.py" is the testing main program. 
 - Executive command
 ```bash
 python dp_LDL_simple_fhi47_100_linear_test_auto.py 1800_188 0
@@ -28,6 +30,8 @@ Also can execute the auto_PT.pl or auto_PT2.pl in Auto_IPC-RC, e.g.,
 ```bash
 perl auto_PT.pl
 ```
+- Testing output
+In the ./Linear_*$alpha*/slop_*$phi*/logtest/ Path, "xe.log" or "xe_1800_188.log"/"xe_1800_188.txt" (rename by auto_PT/auto_PT2.pl) are the outputs.
 
 ## DATA SET
  - DATASET PATH
