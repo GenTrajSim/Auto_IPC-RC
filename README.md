@@ -4,7 +4,7 @@ An atuoencoder architecture for mining reaction coordinate (or implicit physical
 ## ENVIRONMENT REQUIREMENTs
 ```bash
 python == 3.11.0
-tensorflow-gpu >= 2.15.0
+tensorflow-gpu >= 2.4.0
 numpy == 1.26.3
 scipy == 1.12.0
 pandas == 2.1.4
