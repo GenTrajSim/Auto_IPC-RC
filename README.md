@@ -17,8 +17,10 @@ In the ./Linear_*$alpha*/slop_*$phi*/ Path (i.e., Auto_IPC-RC/Linear_0.3/slope_4
 - *$alpha* and *$phi* Setting
 ```bash
 ###  $alpha setting ###
-loss_correlation = (tf.reduce_mean((correlation-0.3)**2) ) #line 555 
-loss_spearman_cor = (tf.reduce_mean((spearman_cor-0.3)**2) ) #line 556  
+#line 555 
+loss_correlation = (tf.reduce_mean((correlation-0.3)**2) )
+#line 556  
+loss_spearman_cor = (tf.reduce_mean((spearman_cor-0.3)**2) ) 
 ```
 ```bash
 ###  $phi setting ###
