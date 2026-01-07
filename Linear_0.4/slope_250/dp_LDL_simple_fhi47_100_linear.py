@@ -576,8 +576,8 @@ def loss_function_1(pred_rho,real_rho,pred_pot,real_pot,normal_y3,x4,x3):
     loss2 = (aa_loss) + loss_correlation*100 #+ (1/loss_std) +(1/tf.math.reduce_std(x3))  +(1/tf.math.reduce_std(normal_y3)) #+ loss2_mean
     return loss1, loss2, loss_rho, loss_pot ,  aa_loss , tf.reduce_mean(k_cor*1), loss_correlation*100
 
-optimizer1 = tf.keras.optimizers.Adam(0.00001) #0.0001
-optimizer2 = tf.keras.optimizers.Adam(0.00001) #0.0001
+optimizer1 = tf.keras.optimizers.Adam(0.0001) #0.0001
+optimizer2 = tf.keras.optimizers.Adam(0.0001) #0.0001
 @tf.function
 def train_step(coord,rho,pot,temp,press):
     filename = './log_simple_fhi47_100_linear/train.log'
@@ -691,3 +691,4 @@ for epoch in range(2000000):
 model_encoder.trainable = False
 model_decoder.trainable = False
 model.save('saved_model/frozen_model')
+
