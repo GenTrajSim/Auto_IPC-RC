@@ -1,7 +1,7 @@
 # Auto_IPC-RC
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
 
-This repository contains supplementary data supporting results of this paper:
+This repository contains codes and supplementary data supporting results of this paper:
 
 [Evidence for the Generic Existence of Two Local Structures in Liquid Water](https://)
 
