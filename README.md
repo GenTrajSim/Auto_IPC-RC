@@ -53,6 +53,10 @@ In the ./Linear_*$alpha*/slop_*$phi*/logtest/ Path, "xe.log" or "xe_1800_188.log
 └── dp_LDL/
  ```
 The training data "*dp_LDL*" (~8 GB, for tip4p/ice *P-T-rho-potential* dataset) can be downloaded from the link within the article.
+```
+cat dp_LDL.z01 dp_LDL.z02 > dp_LDL.zip
+unzip dp_LDL.zip
+```
  - DATASET FORMAT
 1. In the "new_coord" Path, each *$xx*.npy (i.e., 1.npy, 2.npy, ...) file represents the $xx step (i.e., 1.npy, 2.npy, ...) during the MD simulation.
 
