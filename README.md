@@ -58,9 +58,9 @@ In the ./Linear_*$alpha*/slop_*$phi*/logtest/ Path, "xe.log" or "xe_1800_188.log
  ```
 The training data "*dp_LDL*" (~8 GB, for tip4p/ice *P-T-rho-potential* dataset) can be downloaded from the link within the article.
 
-[Training-Dataset-PART01 (dp_LDL.z01): Evidence for the Generic Existence of Two Local Structures in Liquid Water](https://)
+[Training-Dataset-PART01 (dp_LDL.z01): Evidence for the Generic Existence of Two Local Structures in Liquid Water](https://zenodo.org/records/19326505)
 
-[Training-Dataset-PART02 (dp_LDL.z02): Evidence for the Generic Existence of Two Local Structures in Liquid Water](https://)
+[Training-Dataset-PART02 (dp_LDL.z02): Evidence for the Generic Existence of Two Local Structures in Liquid Water](https://zenodo.org/records/19327735)
 ```
 cat dp_LDL.z01 dp_LDL.z02 > dp_LDL.zip
 unzip dp_LDL.zip
