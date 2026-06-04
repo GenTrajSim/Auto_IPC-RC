@@ -3,7 +3,7 @@ An atuoencoder architecture for mining reaction coordinate (or implicit physical
 
 This repository contains codes and supplementary data supporting results of this paper:
 
-[Evidence for the Generic Existence of Two Local Structures in Liquid Water](https://)
+[Evidence for the Generic Existence of Two Local Structures in Liquid Water](https://www.nature.com/articles/s41567-026-03301-8)
 
 ## ENVIRONMENT REQUIREMENTs
 ```bash
