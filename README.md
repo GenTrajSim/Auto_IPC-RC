@@ -1,5 +1,6 @@
 # Auto_IPC-RC
-[![DOI](https://img.shields.io/badge/DOI-10.1038/s41567--026--03301--8-blue?style=plastic)](https://doi.org/10.1038/s41567-026-03301-8)
+[![Paper DOI](https://img.shields.io/badge/DOI-10.1038/s41567--026--03301--8-blue?style=plastic)](https://doi.org/10.1038/s41567-026-03301-8)
+[![Data-01 DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19327735.svg)](https://doi.org/10.5281/zenodo.19327735)
 
 
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
@@ -60,6 +61,7 @@ In the ./Linear_*$alpha*/slop_*$phi*/logtest/ Path, "xe.log" or "xe_1800_188.log
 └── dp_LDL/
  ```
 The training data "*dp_LDL*" (~8 GB, for tip4p/ice *P-T-rho-potential* dataset) can be downloaded from the link within the article.
+
 
 [Training-Dataset-PART01 (dp_LDL.z01): Evidence for the Generic Existence of Two Local Structures in Liquid Water](https://zenodo.org/records/19326505)
 
