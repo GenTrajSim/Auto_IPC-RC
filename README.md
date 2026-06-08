@@ -1,5 +1,7 @@
 # Auto_IPC-RC
-[![DOI](https://img.shields.io/badge/DOI-10.1038/s41567-026-03301-8--2blue)](https://doi.org/10.1038/s41567-026-03301-8)
+[![DOI](https://img.shields.io/badge/DOI-10.1038/s41567--026--03301--8-blue?style=plastic)](https://doi.org/10.1038/s41567-026-03301-8)
+
+
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
 
 This repository contains codes and supplementary data supporting results of this paper:
