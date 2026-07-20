@@ -1,0 +1,94 @@
+{
+  "allowed_valley_fraction": 0.36017490312880013,
+  "distance_ratio": 0.863521863716125,
+  "passed": true,
+  "predicted": {
+    "best_pair": {
+      "distance_bins": 28.600699292150182,
+      "left": {
+        "height": 973.8811550286773,
+        "pc": -14.73881113091667,
+        "rho": -0.4570513166,
+        "x_bin": 44,
+        "y_bin": 53
+      },
+      "right": {
+        "height": 793.6500121636348,
+        "pc": 11.473094889249992,
+        "rho": 0.1541599038000001,
+        "x_bin": 61,
+        "y_bin": 76
+      },
+      "score": 23.317885964133236,
+      "valley_fraction": 0.18470923644398016
+    },
+    "best_peak_distance_bins": 28.600699292150182,
+    "best_valley_fraction": 0.18470923644398016,
+    "hist_max": 973.8811550286773,
+    "nonzero_bins": 12221,
+    "passed": true,
+    "peak_count": 2,
+    "reason": "passed",
+    "top_peaks": [
+      {
+        "height": 973.8811550286773,
+        "pc": -14.73881113091667,
+        "rho": -0.4570513166,
+        "x_bin": 44,
+        "y_bin": 53
+      },
+      {
+        "height": 793.6500121636348,
+        "pc": 11.473094889249992,
+        "rho": 0.1541599038000001,
+        "x_bin": 61,
+        "y_bin": 76
+      }
+    ]
+  },
+  "reason": "passed",
+  "reference": {
+    "best_pair": {
+      "distance_bins": 33.12099032335839,
+      "left": {
+        "height": 1138.2692920469294,
+        "pc": -12.293302303749996,
+        "rho": -0.4577052502500003,
+        "x_bin": 43,
+        "y_bin": 46
+      },
+      "right": {
+        "height": 764.834810768348,
+        "pc": 16.980787982083342,
+        "rho": 0.13870416574999966,
+        "x_bin": 59,
+        "y_bin": 75
+      },
+      "score": 28.34925053086018,
+      "valley_fraction": 0.14406996125152005
+    },
+    "best_peak_distance_bins": 33.12099032335839,
+    "best_valley_fraction": 0.14406996125152005,
+    "hist_max": 1138.2692920469294,
+    "nonzero_bins": 12382,
+    "passed": true,
+    "peak_count": 2,
+    "reason": "passed",
+    "top_peaks": [
+      {
+        "height": 1138.2692920469294,
+        "pc": -12.293302303749996,
+        "rho": -0.4577052502500003,
+        "x_bin": 43,
+        "y_bin": 46
+      },
+      {
+        "height": 764.834810768348,
+        "pc": 16.980787982083342,
+        "rho": 0.13870416574999966,
+        "x_bin": 59,
+        "y_bin": 75
+      }
+    ]
+  }
+}

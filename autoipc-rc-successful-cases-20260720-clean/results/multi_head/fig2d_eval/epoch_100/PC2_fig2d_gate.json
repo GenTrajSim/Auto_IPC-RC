@@ -1,0 +1,69 @@
+{
+  "allowed_valley_fraction": 0.85,
+  "distance_ratio": 0.0,
+  "passed": false,
+  "predicted": {
+    "best_pair": null,
+    "best_peak_distance_bins": 0.0,
+    "best_valley_fraction": 1.0,
+    "hist_max": 2286.432886308987,
+    "nonzero_bins": 3946,
+    "passed": false,
+    "peak_count": 1,
+    "reason": "no_separated_peak_pair",
+    "top_peaks": [
+      {
+        "height": 2286.432886308987,
+        "pc": -34.433327678625,
+        "rho": -0.05562120681250016,
+        "x_bin": 52,
+        "y_bin": 50
+      }
+    ]
+  },
+  "reason": "predicted_has_no_dual_peak_pair",
+  "reference": {
+    "best_pair": {
+      "distance_bins": 32.449961479175904,
+      "left": {
+        "height": 981.25544955845,
+        "pc": 43.48275252916666,
+        "rho": 0.03769878308333319,
+        "x_bin": 54,
+        "y_bin": 75
+      },
+      "right": {
+        "height": 748.3551367474583,
+        "pc": -15.801520295833335,
+        "rho": -0.5913060359166668,
+        "x_bin": 36,
+        "y_bin": 48
+      },
+      "score": 19.778374181553627,
+      "valley_fraction": 0.3904962200264554
+    },
+    "best_peak_distance_bins": 32.449961479175904,
+    "best_valley_fraction": 0.3904962200264554,
+    "hist_max": 981.25544955845,
+    "nonzero_bins": 13147,
+    "passed": false,
+    "peak_count": 2,
+    "reason": "valley_not_deep_enough",
+    "top_peaks": [
+      {
+        "height": 981.25544955845,
+        "pc": 43.48275252916666,
+        "rho": 0.03769878308333319,
+        "x_bin": 54,
+        "y_bin": 75
+      },
+      {
+        "height": 748.3551367474583,
+        "pc": -15.801520295833335,
+        "rho": -0.5913060359166668,
+        "x_bin": 36,
+        "y_bin": 48
+      }
+    ]
+  }
+}

@@ -5,6 +5,8 @@
 
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
 
+## The updated new version featuring multi-head output (simultaneously generating PC1 and PC2) is now accessible via autoipc-rc-successful-cases-20260720-clean.
+
 This repository contains codes and supplementary data supporting results of this paper:
 
 [Evidence for the Generic Existence of Two Local Structures in Liquid Water](https://www.nature.com/articles/s41567-026-03301-8)
