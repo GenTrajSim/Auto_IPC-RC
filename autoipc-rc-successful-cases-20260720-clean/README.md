@@ -1,7 +1,5 @@
 # AutoIPC-RC: Clean Successful Cases
 
-This is the clean reproducibility release for the successful AutoIPC-RC Fig2d cases at P1800/T188. It contains only the implementation, the required data contract, the successful result artifacts, and the original model reference. Development diaries, failed-experiment logs, recovery notes, and unrelated debugging files are intentionally excluded.
-
 ## Included Cases
 
 ### PC1 single-head
