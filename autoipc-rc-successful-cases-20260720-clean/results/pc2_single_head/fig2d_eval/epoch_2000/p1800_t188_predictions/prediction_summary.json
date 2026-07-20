@@ -1,0 +1,22 @@
+{
+  "allow_cpu": true,
+  "condition": "P1800_T188",
+  "frames": 1999,
+  "heads": [
+    "PC2"
+  ],
+  "mc_dropout": true,
+  "model_config": {
+    "descriptor_dropout": 0.1,
+    "dropout": 0.1,
+    "feature_dim": 4,
+    "inner_dim": 250,
+    "m1": 100,
+    "m2": 100,
+    "neighbors": 30,
+    "out_dim": 1
+  },
+  "normalization": "/home/dammerung/workstation/train/workspace/project01-AutoIPC-RC/output/paper_single_head_PC2_a0.4_p0.490_lr1e4_indrepeat2_tail_mcdo_2000_20260714/normalization.json",
+  "rows_per_head": 599700,
+  "weights": "/home/dammerung/workstation/train/workspace/project01-AutoIPC-RC/output/paper_single_head_PC2_a0.4_p0.490_lr1e4_indrepeat2_tail_mcdo_2000_20260714/checkpoints/epoch_2000.weights.h5"
+}

@@ -1,0 +1,9 @@
+{
+  "fit_frame_count": 51835,
+  "formula": "2*(x-(max_train+min_train)/2)/(max_train-min_train)",
+  "potential_max": -17100.472656,
+  "potential_min": -18875.494141,
+  "rho_max": 1148.237427,
+  "rho_min": 894.321594,
+  "scheme": "paper_midpoint_minmax"
+}

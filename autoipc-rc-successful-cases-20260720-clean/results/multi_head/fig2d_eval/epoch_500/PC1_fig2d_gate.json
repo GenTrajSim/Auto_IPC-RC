@@ -1,0 +1,101 @@
+{
+  "allowed_valley_fraction": 0.36017490312880013,
+  "distance_ratio": 1.4523736583231832,
+  "passed": false,
+  "predicted": {
+    "best_pair": {
+      "distance_bins": 48.104053883222775,
+      "left": {
+        "height": 604.1747464502214,
+        "pc": 16.451497843583326,
+        "rho": -0.4249928047291668,
+        "x_bin": 42,
+        "y_bin": 69
+      },
+      "right": {
+        "height": 492.20008334576426,
+        "pc": 51.32373790941666,
+        "rho": 0.762410140845833,
+        "x_bin": 75,
+        "y_bin": 104
+      },
+      "score": 28.24349441252371,
+      "valley_fraction": 0.4128666477655394
+    },
+    "best_peak_distance_bins": 48.104053883222775,
+    "best_valley_fraction": 0.4128666477655394,
+    "hist_max": 604.1747464502214,
+    "nonzero_bins": 11004,
+    "passed": false,
+    "peak_count": 3,
+    "reason": "valley_not_deep_enough",
+    "top_peaks": [
+      {
+        "height": 604.1747464502214,
+        "pc": 16.451497843583326,
+        "rho": -0.4249928047291668,
+        "x_bin": 42,
+        "y_bin": 69
+      },
+      {
+        "height": 492.20008334576426,
+        "pc": 51.32373790941666,
+        "rho": 0.762410140845833,
+        "x_bin": 75,
+        "y_bin": 104
+      },
+      {
+        "height": 433.01070431171905,
+        "pc": 18.444197275916657,
+        "rho": 0.22268152922083329,
+        "x_bin": 60,
+        "y_bin": 71
+      }
+    ]
+  },
+  "reason": "predicted_valley_too_shallow_vs_reference",
+  "reference": {
+    "best_pair": {
+      "distance_bins": 33.12099032335839,
+      "left": {
+        "height": 1138.2692920469294,
+        "pc": -12.293302303749996,
+        "rho": -0.4577052502500003,
+        "x_bin": 43,
+        "y_bin": 46
+      },
+      "right": {
+        "height": 764.834810768348,
+        "pc": 16.980787982083342,
+        "rho": 0.13870416574999966,
+        "x_bin": 59,
+        "y_bin": 75
+      },
+      "score": 28.34925053086018,
+      "valley_fraction": 0.14406996125152005
+    },
+    "best_peak_distance_bins": 33.12099032335839,
+    "best_valley_fraction": 0.14406996125152005,
+    "hist_max": 1138.2692920469294,
+    "nonzero_bins": 12382,
+    "passed": true,
+    "peak_count": 2,
+    "reason": "passed",
+    "top_peaks": [
+      {
+        "height": 1138.2692920469294,
+        "pc": -12.293302303749996,
+        "rho": -0.4577052502500003,
+        "x_bin": 43,
+        "y_bin": 46
+      },
+      {
+        "height": 764.834810768348,
+        "pc": 16.980787982083342,
+        "rho": 0.13870416574999966,
+        "x_bin": 59,
+        "y_bin": 75
+      }
+    ]
+  }
+}

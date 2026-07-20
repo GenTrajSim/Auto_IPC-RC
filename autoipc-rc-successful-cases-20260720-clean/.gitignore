@@ -1,0 +1,4 @@
+full_results/
+data_contract/frames.jsonl
+__pycache__/
+*.pyc

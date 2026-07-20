@@ -1,0 +1,48 @@
+{
+  "batch_size": 300,
+  "checkpoint_every": 100,
+  "checkpoint_keep": 5,
+  "descriptor_dropout": 0.1,
+  "drop_remainder": false,
+  "dropout": 0.1,
+  "epochs": 3000,
+  "frame_count": 290635,
+  "head_weights": [
+    1.0,
+    1.0
+  ],
+  "initial_epoch": 1500,
+  "inner_dim": 250,
+  "learning_rate": 0.0001,
+  "manifest_jsonl": "outputs/preflight/data_gate_20260703/frames.jsonl",
+  "model_config": {
+    "descriptor_dropout": 0.1,
+    "dropout": 0.1,
+    "feature_dim": 4,
+    "inner_dim": 250,
+    "m1": 100,
+    "m2": 100,
+    "neighbors": 30,
+    "out_dim": 1
+  },
+  "normalization_json": "outputs/preflight/fhi47_paper_20260706/normalization.json",
+  "rank_weight": 0.0,
+  "repeat_size": 2,
+  "resume_checkpoint": "/home/dammerung/workstation/train/workspace/project01-AutoIPC-RC/output/multi_head_paper_parity_m1_100_m2_100_lr1e4_4500_barrier_20260716/checkpoints/tf_epoch_1500",
+  "resume_weights": null,
+  "sample_frames_per_epoch": 20000,
+  "seed": 20260716,
+  "shuffle_buffer": 400,
+  "specs": [
+    {
+      "alpha": 0.2,
+      "name": "PC1",
+      "phi_pi_fraction": 0.455
+    },
+    {
+      "alpha": 0.4,
+      "name": "PC2",
+      "phi_pi_fraction": 0.49
+    }
+  ]
+}
