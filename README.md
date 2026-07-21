@@ -5,7 +5,7 @@
 
 An atuoencoder architecture for mining reaction coordinate (or implicit physical characteristic )
 
-## The updated new version featuring multi-head output (simultaneously generating PC1 and PC2) is now accessible via autoipc-rc-successful-cases-20260720-clean.
+### The updated new version featuring multi-head output (simultaneously generating PC1 and PC2) is now [accessible via autoipc-rc-successful-cases-20260720-clean](https://github.com/GenTrajSim/Auto_IPC-RC/tree/master/autoipc-rc-successful-cases-20260720-clean).
 
 This repository contains codes and supplementary data supporting results of this paper:
 
